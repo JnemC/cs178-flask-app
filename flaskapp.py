@@ -24,7 +24,7 @@ def add_user():
         
         # Process the data (e.g., add it to a database)
         # For now, let's just print it to the console
-        print("Name:", first_name, last_name ":", "Favorite Genre:", genre)
+        print("Name:", first_name, last_name, ":", "Favorite Genre:", genre)
         
         flash('User added successfully!', 'success')  # 'success' is a category; makes a green banner at the top
         # Redirect to home page or another page upon successful submission
